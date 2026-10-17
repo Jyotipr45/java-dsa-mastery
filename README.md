@@ -89,4 +89,4 @@ Problems from external platforms such as LeetCode link back to the original and 
 
 ## Author
 
-Created and maintained by **Jyoti Prakash Parida**.
+Created and maintained by **Jyoti Prakash Parida** ([@Jyotipr45](https://github.com/Jyotipr45)).
