@@ -1,0 +1,29 @@
+name: Validate
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install Java LTS releases
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: |
+            8
+            11
+            17
+            21
+            25
+
+      - name: Validate repository structure
+        run: ./scripts/validate-repo.sh
+
+      - name: Compile and run solutions on every LTS release
+        run: ./scripts/validate-java.sh
