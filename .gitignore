@@ -1,0 +1,14 @@
+# Private maintainer files: AI instructions and personal learning tracking
+.maintainer/
+
+# Java build output
+*.class
+out/
+target/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
