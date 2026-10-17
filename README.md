@@ -48,21 +48,9 @@ A problem README walks through the problem in original wording, the clues and ca
 
 ## Suggested learning order
 
-```mermaid
-flowchart LR
-    A[Complexity analysis] --> B[Arrays and Strings]
-    B --> C[Hashing]
-    C --> D[Two Pointers, Sliding Window, Prefix Sum]
-    D --> E[Linked Lists, Stacks, Queues]
-    E --> F[Binary Search]
-    F --> G[Recursion and Backtracking]
-    G --> H[Trees and Heaps]
-    H --> I[Graphs]
-    I --> J[Greedy]
-    J --> K[Dynamic Programming]
-```
+![Suggested learning order in six stages: Foundations, Core patterns, Linear structures, Recursion, Trees and graphs, and Optimization](assets/concepts/learning-roadmap.webp)
 
-Each stage builds on the one before it. You do not need to finish every Hard problem before moving on. The full roadmap, with prerequisites for each stage, is in [ROADMAP.md](ROADMAP.md).
+You do not need to finish every Hard problem before moving to the next stage. The full roadmap, with prerequisites and the reasoning behind this order, is in [ROADMAP.md](ROADMAP.md).
 
 ## Running a solution
 
