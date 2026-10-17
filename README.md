@@ -21,7 +21,7 @@ Every problem follows the same loop. Steps 2 and 3 are highlighted because they 
 - Developers learning DSA for the first time who want explanations from first principles.
 - Developers who have solved problems before but struggle with unfamiliar ones.
 - Anyone preparing for software engineering interviews in Java.
-- Java developers who want to see how the language has evolved from Java 8 to Java 21.
+- Java developers who want to see how the language has evolved across its long-term support (LTS) releases, from Java 8 to Java 25.
 
 You do not need personal guidance to use this repository. Each topic and pattern guide is written to stand on its own.
 
@@ -31,7 +31,7 @@ You do not need personal guidance to use this repository. Each topic and pattern
 |---|---|
 | `DSA/` | Topics such as Array, String, LinkedList, Tree and Graph. Each topic has a guide and problems grouped into Easy, Medium and Hard. |
 | `Patterns/` | One guide per technique, such as Two Pointers, Sliding Window and Monotonic Stack. Each covers what it is, when to use it, why it works, and when it fails. |
-| `JavaVersions/` | Notes on what changed in Java 8, 11, 17 and 21, with a compatibility matrix. |
+| `JavaVersions/` | Notes on what changed in each LTS release (Java 8, 11, 17, 21 and 25), with a compatibility matrix. |
 | `assets/` | Original diagrams used across the guides. |
 | `templates/` | The structure every topic, pattern and problem follows. |
 | `scripts/` | Validation scripts that check naming, links and that every solution compiles and runs. |
@@ -61,7 +61,7 @@ javac Solution.java
 java Solution
 ```
 
-Solutions are written to be Java 8 compatible by default, so they run on Java 8, 11, 17 and 21. Where a newer Java version offers a genuinely better way to express a solution, a version-specific implementation is included and labelled.
+Solutions are written to be Java 8 compatible by default, so they run on every LTS release: Java 8, 11, 17, 21 and 25. Only LTS versions are covered, because those are what most companies run in production. Where a newer Java version offers a genuinely better way to express a solution, a version-specific implementation is included and labelled.
 
 ## Project status
 
