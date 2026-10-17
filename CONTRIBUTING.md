@@ -77,3 +77,5 @@ Both scripts print a clear message for each problem they find and exit with a no
 ## Attribution
 
 Problems from external platforms belong to those platforms and their authors. Always link to the original.
+
+By contributing, you agree that your contribution is released under the repository's [MIT License](LICENSE).

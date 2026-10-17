@@ -75,6 +75,10 @@ Corrections, clearer explanations and new problems are welcome. Please read [CON
 
 Problems from external platforms such as LeetCode link back to the original and keep their official difficulty. The explanations and code here are original. Problem statements and editorial solutions belong to their respective platforms and authors.
 
+## License
+
+Released under the [MIT License](LICENSE). You are free to use, copy and adapt the code and explanations, including commercially, as long as you keep the copyright notice. Problem statements from external platforms are not covered by this license and belong to their respective owners.
+
 ## Author
 
 Created and maintained by **Jyoti Prakash Parida** ([@Jyotipr45](https://github.com/Jyotipr45)).
