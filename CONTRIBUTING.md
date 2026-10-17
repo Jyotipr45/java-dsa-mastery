@@ -16,11 +16,11 @@ For anything larger than a small fix, please open an issue first so the approach
 ## Adding a problem
 
 1. **Check for duplicates.** Search the repository for the problem name and its source ID. Each problem has exactly one folder, even if it uses several patterns. Pattern guides link to it instead of copying it.
-2. **Choose the folder.** Put it under the topic that best describes its main data structure or technique, in the difficulty folder that matches the official difficulty on its source platform.
+2. **Choose the folder.** Put it under the numbered topic folder, such as `01-Array`, that best describes its main data structure or technique, in the difficulty folder that matches the official difficulty on its source platform.
 3. **Name the folder.** Use the next unused three-digit number in that difficulty folder, followed by the problem name in lowercase words separated by hyphens:
 
    ```
-   DSA/Array/Easy/003-move-zeroes/
+   DSA/01-Array/Easy/003-move-zeroes/
    ```
 
    Numbering starts at `001` in each difficulty folder. Never renumber existing problems.

@@ -51,7 +51,7 @@ Clues are hints, not rules. Always check that the pattern's assumptions actually
 
 | Problem | Difficulty | Topic |
 |---|---|---|
-| [<Problem>](../DSA/<Topic>/<Difficulty>/<nnn>-<problem>/README.md) | <Easy> | <Topic> |
+| [<Problem>](../DSA/<nn>-<Topic>/<Difficulty>/<nnn>-<problem>/README.md) | <Easy> | <Topic> |
 
 ## Quick revision
 

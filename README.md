@@ -29,7 +29,7 @@ You do not need personal guidance to use this repository. Each topic and pattern
 
 | Folder | What it contains |
 |---|---|
-| `DSA/` | Topics such as Array, String, LinkedList, Tree and Graph. Each topic has a guide and problems grouped into Easy, Medium and Hard. |
+| `DSA/` | Topics numbered in learning order, from `01-Array` to `19-BitManipulation`. Each topic has a guide and problems grouped into Easy, Medium and Hard. |
 | `Patterns/` | One guide per technique, such as Two Pointers, Sliding Window and Monotonic Stack. Each covers what it is, when to use it, why it works, and when it fails. |
 | `JavaVersions/` | Notes on what changed in each LTS release (Java 8, 11, 17, 21 and 25), with a compatibility matrix. |
 | `assets/` | Original diagrams used across the guides. |
@@ -39,7 +39,7 @@ You do not need personal guidance to use this repository. Each topic and pattern
 Each problem lives in its own folder:
 
 ```
-DSA/Array/Easy/001-two-sum/
+DSA/01-Array/Easy/001-two-sum/
     README.md        explanation, pattern recognition, dry run, complexity
     Solution.java    complete, runnable program with sample input
 ```

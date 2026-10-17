@@ -8,7 +8,7 @@ This roadmap orders the material so that each stage gives you the tools the next
 
 For each stage:
 
-1. Read the topic guide in `DSA/<Topic>/README.md` and the related pattern guides in `Patterns/`.
+1. Read the topic guide in `DSA/<nn>-<Topic>/README.md` and the related pattern guides in `Patterns/`.
 2. Solve the Easy problems. Try each one yourself before reading the solution, and use the Pattern Recognition section only when you are stuck.
 3. Solve a few Medium problems. These are where pattern recognition actually gets tested.
 4. Attempt Hard problems when you want a challenge. You do not need to finish them before moving on.

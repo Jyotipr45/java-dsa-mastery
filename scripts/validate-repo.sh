@@ -19,13 +19,20 @@ for f in README.md ROADMAP.md CONTRIBUTING.md Patterns/README.md JavaVersions/RE
   [ -f "$f" ] || error "missing required file: $f"
 done
 
-# 2. Topic folders
+# 2. Topic folders: numbered in learning order, e.g. 04-LinkedList
+seen_topic_numbers=""
 for topic_dir in DSA/*/; do
   topic_dir=${topic_dir%/}
   topic=$(basename "$topic_dir")
 
-  if ! [[ $topic =~ ^[A-Z][A-Za-z]*$ ]]; then
-    error "$topic_dir: topic folders must be CamelCase words with no numbers, e.g. LinkedList"
+  if ! [[ $topic =~ ^[0-9]{2}-[A-Z][A-Za-z]*$ ]]; then
+    error "$topic_dir: topic folders must be a two-digit number, a hyphen and a CamelCase name, e.g. 04-LinkedList"
+  else
+    topic_number=${topic%%-*}
+    if [[ " $seen_topic_numbers " == *" $topic_number "* ]]; then
+      error "$topic_dir: topic number $topic_number is used by more than one topic"
+    fi
+    seen_topic_numbers="$seen_topic_numbers $topic_number"
   fi
   [ -f "$topic_dir/README.md" ] || error "$topic_dir: missing README.md"
 
