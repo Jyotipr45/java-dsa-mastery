@@ -1,0 +1,8 @@
+# Keep Unix line endings for shell scripts and workflows, so they run in
+# Git Bash on Windows as well as on Linux and macOS.
+*.sh   text eol=lf
+*.yml  text eol=lf
+
+# Normalize text files; treat images as binary.
+*      text=auto
+*.webp binary
