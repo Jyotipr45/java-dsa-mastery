@@ -8,7 +8,7 @@ The clues below are starting points, not rules. Several patterns can fit the sam
 
 | Pattern | Common clues | Status |
 |---|---|---|
-| Two Pointers | Sorted input, or comparing elements from both ends | Planned |
+| [Two Pointers](TwoPointers.md) | Sorted input, or comparing elements from both ends | Written |
 | Sliding Window | Contiguous subarrays or substrings with a condition | Planned |
 | Fast and Slow Pointers | Cycles, or finding the middle of a linked list | Planned |
 | Prefix Sum | Sums over many ranges of a fixed array | Planned |
