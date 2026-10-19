@@ -165,7 +165,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 
 ### Easy
 
-None yet.
+- [001. Best Time to Buy and Sell Stock](Easy/001-best-time-to-buy-and-sell-stock/README.md): the best single trade, using a running minimum in one pass.
 
 ### Medium
 
