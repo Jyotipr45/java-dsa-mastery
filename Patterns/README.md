@@ -11,7 +11,7 @@ The clues below are starting points, not rules. Several patterns can fit the sam
 | Two Pointers | Sorted input, or comparing elements from both ends | Planned |
 | Sliding Window | Contiguous subarrays or substrings with a condition | Planned |
 | Fast and Slow Pointers | Cycles, or finding the middle of a linked list | Planned |
-| Prefix Sum | Sums over many ranges of a fixed array | Planned |
+| [Prefix Sum](PrefixSum.md) | Sums over many ranges of a fixed array | Written |
 | Hashing | Repeated lookups, counting or finding complements | Planned |
 | Binary Search | Sorted data, or a monotonic answer space | Planned |
 | Monotonic Stack | Next greater or next smaller element | Planned |
