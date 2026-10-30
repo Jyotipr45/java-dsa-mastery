@@ -6,7 +6,7 @@ Follow the [learning roadmap](../ROADMAP.md) for a suggested order, or jump to a
 
 | # | Topic | Roadmap | Status |
 |---|---|---|---|
-| 01 | [Array](01-Array/README.md) | Stage 1: Foundations | Guide written, no problems yet |
+| 01 | [Array](01-Array/README.md) | Stage 1: Foundations | Guide written, 1 problem |
 | 02 | [String](02-String/README.md) | Stage 1: Foundations | Planned |
 | 03 | [Hashing](03-Hashing/README.md) | Stage 1: Foundations | Planned |
 | 04 | [Linked List](04-LinkedList/README.md) | Stage 3: Linear structures | Planned |

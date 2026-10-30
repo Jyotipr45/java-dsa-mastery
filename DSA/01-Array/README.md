@@ -165,7 +165,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 
 ### Easy
 
-None yet.
+- [002. Running Sum of 1d Array](Easy/002-running-sum-of-1d-array/README.md): every prefix sum in one pass, by carrying a running total.
 
 ### Medium
 
