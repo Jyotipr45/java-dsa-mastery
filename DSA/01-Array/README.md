@@ -165,7 +165,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 
 ### Easy
 
-None yet.
+- [003. Find Pivot Index](Easy/003-find-pivot-index/README.md): the leftmost index whose left and right sums are equal, using the total and one running left sum.
 
 ### Medium
 
