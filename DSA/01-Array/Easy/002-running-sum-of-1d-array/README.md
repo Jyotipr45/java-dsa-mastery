@@ -1,6 +1,6 @@
 # Running Sum of 1d Array
 
-**Source:** [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md) · **Patterns:** Prefix Sum (see the [patterns index](../../../../Patterns/README.md))
+**Source:** [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md) · **Patterns:** [Prefix Sum](../../../../Patterns/PrefixSum.md)
 
 ## 1. Problem Statement
 

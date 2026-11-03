@@ -1,6 +1,6 @@
 # Find Pivot Index
 
-**Source:** [LeetCode 724](https://leetcode.com/problems/find-pivot-index/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md) · **Patterns:** Prefix Sum (see the [patterns index](../../../../Patterns/README.md))
+**Source:** [LeetCode 724](https://leetcode.com/problems/find-pivot-index/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md) · **Patterns:** [Prefix Sum](../../../../Patterns/PrefixSum.md)
 
 ## 1. Problem Statement
 

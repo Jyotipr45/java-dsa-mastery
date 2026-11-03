@@ -214,7 +214,8 @@ The [Array](../DSA/01-Array/README.md) and [Hashing](../DSA/03-Hashing/README.md
 
 ## Practice problems
 
-None yet. Problems that use this pattern will be listed here as they are added.
+- [Running Sum of 1d Array](../DSA/01-Array/Easy/002-running-sum-of-1d-array/README.md) (Easy): build the prefix sums themselves in place.
+- [Find Pivot Index](../DSA/01-Array/Easy/003-find-pivot-index/README.md) (Easy): compare a running left sum with `total - left - nums[i]`.
 
 ## Quick revision
 
