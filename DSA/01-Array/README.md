@@ -155,9 +155,9 @@ list = [5, 10, 20]
 
 Many array problems are solved by one of these patterns. Their full guides are listed in the [patterns index](../../Patterns/README.md).
 
-- **Two Pointers** for sorted arrays, pairs that meet a condition, or in-place rearranging.
-- **Sliding Window** for contiguous subarrays that must satisfy a condition.
-- **Prefix Sum** for the sums of many ranges in the same array.
+- [Two Pointers](../../Patterns/TwoPointers.md) for sorted arrays, pairs that meet a condition, or in-place rearranging.
+- [Sliding Window](../../Patterns/SlidingWindow.md) for contiguous subarrays that must satisfy a condition.
+- [Prefix Sum](../../Patterns/PrefixSum.md) for the sums of many ranges in the same array.
 - **Hashing** for finding complements, duplicates or counts in a single pass.
 - **Binary Search** for sorted arrays, or for searching a monotonic range of possible answers.
 
@@ -165,7 +165,9 @@ Many array problems are solved by one of these patterns. Their full guides are l
 
 ### Easy
 
-None yet.
+- [001. Best Time to Buy and Sell Stock](Easy/001-best-time-to-buy-and-sell-stock/README.md): the best single trade, using a running minimum in one pass.
+- [002. Running Sum of 1d Array](Easy/002-running-sum-of-1d-array/README.md): every prefix sum in one pass, by carrying a running total.
+- [003. Find Pivot Index](Easy/003-find-pivot-index/README.md): the leftmost index whose left and right sums are equal, using the total and one running left sum.
 
 ### Medium
 
