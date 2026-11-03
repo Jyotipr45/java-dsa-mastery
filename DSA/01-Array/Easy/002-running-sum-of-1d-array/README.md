@@ -43,7 +43,7 @@ Each value is the previous value plus the next number: 3, then 3 + 1, then 4 + 2
 
 **Which patterns should I consider?** Adding each prefix from scratch, and building each sum from the one before it, which is the prefix sum idea.
 
-**Why does the chosen pattern fit?** Because the answer at `i` contains the answer at `i - 1`, we can carry one running total from left to right and never add the same element twice. The array this produces is exactly the prefix sum array that the Prefix Sum pattern uses to answer range-sum questions, so this problem is the first step of that pattern.
+**Why does the chosen pattern fit?** Because the answer at `i` contains the answer at `i - 1`, we can carry one running total from left to right and never add the same element twice. The array this produces is exactly the prefix sum array that the [Prefix Sum](../../../../Patterns/PrefixSum.md) pattern uses to answer range-sum questions, so this problem is the first step of that pattern.
 
 **Why are the alternatives less suitable?** Adding each prefix from scratch repeats work: `nums[0]` is added `n` times, `nums[1]` is added `n - 1` times, and so on, which is O(n²) in total. Sorting or hashing do not help, because the order of the elements defines every prefix.
 
@@ -168,4 +168,4 @@ Runs on Java 8, 11, 17, 21 and 25.
 
 ## 14. Revision Summary
 
-The sum up to index `i` is the sum up to `i - 1` plus `nums[i]`, so one running total gives every prefix sum in a single pass. This is the prefix sum array, the building block of the Prefix Sum pattern for range sums and subarray counting. Start the total at 0, check that the largest sum fits the number type, and decide whether the input may be overwritten. It takes O(n) time and O(1) auxiliary space besides the output.
+The sum up to index `i` is the sum up to `i - 1` plus `nums[i]`, so one running total gives every prefix sum in a single pass. This is the prefix sum array, the building block of the [Prefix Sum](../../../../Patterns/PrefixSum.md) pattern for range sums and subarray counting. Start the total at 0, check that the largest sum fits the number type, and decide whether the input may be overwritten. It takes O(n) time and O(1) auxiliary space besides the output.

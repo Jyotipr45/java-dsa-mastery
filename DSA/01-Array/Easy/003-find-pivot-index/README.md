@@ -52,9 +52,9 @@ At index 0 nothing is on the left, so the left sum is 0. The right side is 4 + (
 - Neighboring indexes share almost all of their left side. Moving from `i` to `i + 1` adds exactly one element to the left.
 - The whole array is fixed in advance, so its total sum can be computed once.
 
-**Which patterns should I consider?** Adding both sides from scratch at every index, storing prefix and suffix sum arrays, and a single running prefix sum combined with the total, which is the Prefix Sum pattern.
+**Which patterns should I consider?** Adding both sides from scratch at every index, storing prefix and suffix sum arrays, and a single running prefix sum combined with the total, which is the [Prefix Sum](../../../../Patterns/PrefixSum.md) pattern.
 
-**Why does the chosen pattern fit?** The left sum at `i` is a prefix sum, so it can be carried forward with one running total, as in Running Sum of 1d Array (Array, Easy 002). The right sum does not need its own running total, because the left side, the element at `i` and the right side together make up the whole array: `rightSum = total - leftSum - nums[i]`. One number computed in advance turns every right-side question into a subtraction.
+**Why does the chosen pattern fit?** The left sum at `i` is a prefix sum, so it can be carried forward with one running total, as in [Running Sum of 1d Array](../002-running-sum-of-1d-array/README.md) (Array, Easy 002). The right sum does not need its own running total, because the left side, the element at `i` and the right side together make up the whole array: `rightSum = total - leftSum - nums[i]`. One number computed in advance turns every right-side question into a subtraction.
 
 **Why are the alternatives less suitable?** Adding both sides from scratch visits about `n` elements for every index, which is O(n²). Separate prefix and suffix arrays give O(n) time, but use O(n) extra memory to store values that the total already lets us derive. Two pointers moving inward do not work here: the values can be negative, so moving a pointer can make a side's sum go down as well as up, and there is no rule for which pointer to move. Sorting or hashing do not help either, because the order of the elements defines each side.
 
@@ -65,7 +65,7 @@ At index 0 nothing is on the left, so the left sum is 0. The right side is 4 + (
 ## 4. Prerequisites
 
 - [Array](../../README.md): scanning an array from left to right with an index.
-- Running Sum of 1d Array (Array, Easy 002): building prefix sums with one running total. This problem uses the same running total for the left side.
+- [Running Sum of 1d Array](../002-running-sum-of-1d-array/README.md) (Array, Easy 002): building prefix sums with one running total. This problem uses the same running total for the left side.
 
 ## 5. Intuition
 
@@ -184,4 +184,4 @@ Runs on Java 8, 11, 17, 21 and 25.
 
 ## 14. Revision Summary
 
-The left side, the pivot element and the right side always add up to the total, so after one pass for the total, a single running left sum gives the right sum as `total - leftSum - nums[i]`. This is the Prefix Sum pattern with one running prefix instead of a stored array. Compare before adding `nums[i]` to the left side, scan from the left to get the leftmost pivot, and remember that index 0 and the last index can be pivots. It takes O(n) time and O(1) auxiliary space.
+The left side, the pivot element and the right side always add up to the total, so after one pass for the total, a single running left sum gives the right sum as `total - leftSum - nums[i]`. This is the [Prefix Sum](../../../../Patterns/PrefixSum.md) pattern with one running prefix instead of a stored array. Compare before adding `nums[i]` to the left side, scan from the left to get the leftmost pivot, and remember that index 0 and the last index can be pivots. It takes O(n) time and O(1) auxiliary space.
