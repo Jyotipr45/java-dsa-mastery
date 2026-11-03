@@ -156,7 +156,7 @@ list = [5, 10, 20]
 Many array problems are solved by one of these patterns. Their full guides are listed in the [patterns index](../../Patterns/README.md).
 
 - **Two Pointers** for sorted arrays, pairs that meet a condition, or in-place rearranging.
-- **Sliding Window** for contiguous subarrays that must satisfy a condition.
+- [Sliding Window](../../Patterns/SlidingWindow.md) for contiguous subarrays that must satisfy a condition.
 - **Prefix Sum** for the sums of many ranges in the same array.
 - **Hashing** for finding complements, duplicates or counts in a single pass.
 - **Binary Search** for sorted arrays, or for searching a monotonic range of possible answers.
