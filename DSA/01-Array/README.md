@@ -168,6 +168,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 - [001. Best Time to Buy and Sell Stock](Easy/001-best-time-to-buy-and-sell-stock/README.md): the best single trade, using a running minimum in one pass.
 - [002. Running Sum of 1d Array](Easy/002-running-sum-of-1d-array/README.md): every prefix sum in one pass, by carrying a running total.
 - [003. Find Pivot Index](Easy/003-find-pivot-index/README.md): the leftmost index whose left and right sums are equal, using the total and one running left sum.
+- [004. Two Sum](Easy/004-two-sum/README.md): the two indexes whose values add up to a target, by looking up each value's complement in a hash map.
 
 ### Medium
 
