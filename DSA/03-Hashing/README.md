@@ -170,7 +170,7 @@ Hashing is both a data structure and a pattern. The pattern guides are listed in
 
 ### Easy
 
-None yet.
+- [Two Sum](../01-Array/Easy/004-two-sum/README.md) (Array, Easy 004): find the pair that adds up to a target by looking up each value's complement in a map from value to index.
 
 ### Medium
 

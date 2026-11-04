@@ -184,7 +184,7 @@ The topic guides for [Array](../DSA/01-Array/README.md) and [Hashing](../DSA/03-
 
 ## Practice problems
 
-None yet. Problems that use this pattern will be listed here as they are added.
+- [Two Sum](../DSA/01-Array/Easy/004-two-sum/README.md) (Easy): compares sorting with two pointers against a hash map on unsorted input, where the original indexes must be returned. Hashing is preferred there; two pointers wins once the input is sorted.
 
 ## Quick revision
 
