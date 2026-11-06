@@ -161,10 +161,10 @@ groups = {a=[ant, ape], b=[bat, bee], c=[cow]}
 
 Hashing is both a data structure and a pattern. The pattern guides are listed in the [patterns index](../../Patterns/README.md).
 
-- **Hashing** for duplicates, frequency counts, complements and grouping in a single pass.
-- **Prefix Sum** combined with a hash map of earlier prefix sums, to count subarrays with a given sum.
-- **Sliding Window** often keeps a frequency map of the characters or values inside the window.
-- **Two Pointers** is the main alternative when the input is sorted, and needs no extra memory.
+- [Hashing](../../Patterns/Hashing.md) for duplicates, frequency counts, complements and grouping in a single pass.
+- [Prefix Sum](../../Patterns/PrefixSum.md) combined with a hash map of earlier prefix sums, to count subarrays with a given sum.
+- [Sliding Window](../../Patterns/SlidingWindow.md) often keeps a frequency map of the characters or values inside the window.
+- [Two Pointers](../../Patterns/TwoPointers.md) is the main alternative when the input is sorted, and needs no extra memory.
 
 ## Practice problems
 
