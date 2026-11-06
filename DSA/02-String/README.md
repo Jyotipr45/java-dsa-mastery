@@ -198,7 +198,7 @@ Many string problems are solved by the same patterns as array problems. Their fu
 
 - **Two Pointers** for palindromes, reversing in place, and comparing two strings character by character.
 - **Sliding Window** for the longest or shortest substring that satisfies a condition, such as having no repeated characters.
-- **Hashing** for anagrams, character frequencies and grouping words that share a property.
+- [Hashing](../../Patterns/Hashing.md) for anagrams, character frequencies and grouping words that share a property.
 - **Dynamic Programming** for comparing two strings, such as edit distance or the longest common subsequence.
 
 ## Practice problems

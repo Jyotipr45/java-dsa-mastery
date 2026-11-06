@@ -158,7 +158,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 - [Two Pointers](../../Patterns/TwoPointers.md) for sorted arrays, pairs that meet a condition, or in-place rearranging.
 - [Sliding Window](../../Patterns/SlidingWindow.md) for contiguous subarrays that must satisfy a condition.
 - [Prefix Sum](../../Patterns/PrefixSum.md) for the sums of many ranges in the same array.
-- **Hashing** for finding complements, duplicates or counts in a single pass.
+- [Hashing](../../Patterns/Hashing.md) for finding complements, duplicates or counts in a single pass.
 - **Binary Search** for sorted arrays, or for searching a monotonic range of possible answers.
 
 ## Practice problems

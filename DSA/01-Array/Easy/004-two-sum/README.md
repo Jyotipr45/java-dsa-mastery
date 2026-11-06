@@ -1,6 +1,6 @@
 # Two Sum
 
-**Source:** [LeetCode 1](https://leetcode.com/problems/two-sum/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md), [Hashing](../../../03-Hashing/README.md) · **Patterns:** Hashing (complement lookup), compared with [Two Pointers](../../../../Patterns/TwoPointers.md)
+**Source:** [LeetCode 1](https://leetcode.com/problems/two-sum/) · **Difficulty:** Easy · **Topic:** [Array](../../README.md), [Hashing](../../../03-Hashing/README.md) · **Patterns:** [Hashing](../../../../Patterns/Hashing.md) (complement lookup), compared with [Two Pointers](../../../../Patterns/TwoPointers.md)
 
 ## 1. Problem Statement
 
@@ -66,6 +66,7 @@ Negative values work the same way: `-3 + (-5) = -8`.
 
 - [Array](../../README.md): scanning an array from left to right with an index.
 - [Hashing](../../../03-Hashing/README.md): how `HashMap` stores keys, why `get` and `put` are O(1) on average, and the boxing pitfalls of `HashMap<Integer, Integer>`.
+- [Hashing pattern](../../../../Patterns/Hashing.md): the complement lookup form and why the lookup must come before the insert.
 - [Two Pointers](../../../../Patterns/TwoPointers.md): the pair-sum search on sorted input, used here as the alternative.
 
 ## 5. Intuition
@@ -203,4 +204,4 @@ Runs on Java 8, 11, 17, 21 and 25.
 
 ## 15. Revision Summary
 
-For each element `x`, the only possible partner is `target - x`, so store every value seen so far in a hash map from value to index and look the partner up in O(1) on average. Look up before storing, so an element is never paired with itself, and the pair is found when its second element is reached. This is the complement lookup idea from the [Hashing](../../../03-Hashing/README.md) guide, and it takes O(n) time and O(n) auxiliary space. When the input is already sorted, [Two Pointers](../../../../Patterns/TwoPointers.md) solves it in O(n) time with O(1) extra space.
+For each element `x`, the only possible partner is `target - x`, so store every value seen so far in a hash map from value to index and look the partner up in O(1) on average. Look up before storing, so an element is never paired with itself, and the pair is found when its second element is reached. This is the complement lookup form of the [Hashing](../../../../Patterns/Hashing.md) pattern, and it takes O(n) time and O(n) auxiliary space. When the input is already sorted, [Two Pointers](../../../../Patterns/TwoPointers.md) solves it in O(n) time with O(1) extra space.

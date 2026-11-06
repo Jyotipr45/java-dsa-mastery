@@ -12,7 +12,7 @@ The clues below are starting points, not rules. Several patterns can fit the sam
 | [Sliding Window](SlidingWindow.md) | Contiguous subarrays or substrings with a condition | Written |
 | Fast and Slow Pointers | Cycles, or finding the middle of a linked list | Planned |
 | [Prefix Sum](PrefixSum.md) | Sums over many ranges of a fixed array | Written |
-| Hashing | Repeated lookups, counting or finding complements | Planned |
+| [Hashing](Hashing.md) | Repeated lookups, counting or finding complements | Written |
 | Binary Search | Sorted data, or a monotonic answer space | Planned |
 | Monotonic Stack | Next greater or next smaller element | Planned |
 | Monotonic Queue | Maximum or minimum of every sliding window | Planned |
