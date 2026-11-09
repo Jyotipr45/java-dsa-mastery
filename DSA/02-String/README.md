@@ -205,7 +205,7 @@ Many string problems are solved by the same patterns as array problems. Their fu
 
 ### Easy
 
-None yet.
+- [001. Valid Anagram](Easy/001-valid-anagram/README.md): whether two strings use the same letters equally often, using an array of 26 letter counts.
 
 ### Medium
 
