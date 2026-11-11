@@ -196,7 +196,7 @@ emoji length = 2, code points = 1
 
 Many string problems are solved by the same patterns as array problems. Their full guides are listed in the [patterns index](../../Patterns/README.md).
 
-- **Two Pointers** for palindromes, reversing in place, and comparing two strings character by character.
+- [Two Pointers](../../Patterns/TwoPointers.md) for palindromes, reversing in place, and comparing two strings character by character.
 - **Sliding Window** for the longest or shortest substring that satisfies a condition, such as having no repeated characters.
 - [Hashing](../../Patterns/Hashing.md) for anagrams, character frequencies and grouping words that share a property.
 - **Dynamic Programming** for comparing two strings, such as edit distance or the longest common subsequence.
@@ -206,6 +206,7 @@ Many string problems are solved by the same patterns as array problems. Their fu
 ### Easy
 
 - [001. Valid Anagram](Easy/001-valid-anagram/README.md): whether two strings use the same letters equally often, using an array of 26 letter counts.
+- [002. Valid Palindrome](Easy/002-valid-palindrome/README.md): whether a sentence reads the same in both directions after ignoring case and punctuation, using two pointers from both ends.
 
 ### Medium
 
