@@ -185,6 +185,7 @@ The topic guides for [Array](../DSA/01-Array/README.md) and [Hashing](../DSA/03-
 ## Practice problems
 
 - [Two Sum](../DSA/01-Array/Easy/004-two-sum/README.md) (Easy): compares sorting with two pointers against a hash map on unsorted input, where the original indexes must be returned. Hashing is preferred there; two pointers wins once the input is sorted.
+- [Valid Palindrome](../DSA/02-String/Easy/002-valid-palindrome/README.md) (Easy): opposite-end pointers that compare mirrored characters, each pointer skipping characters that are not letters or digits. The input does not need to be sorted, because a palindrome is defined by mirrored pairs.
 
 ## Quick revision
 
