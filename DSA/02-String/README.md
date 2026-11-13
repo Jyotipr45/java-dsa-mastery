@@ -197,7 +197,7 @@ emoji length = 2, code points = 1
 Many string problems are solved by the same patterns as array problems. Their full guides are listed in the [patterns index](../../Patterns/README.md).
 
 - [Two Pointers](../../Patterns/TwoPointers.md) for palindromes, reversing in place, and comparing two strings character by character.
-- **Sliding Window** for the longest or shortest substring that satisfies a condition, such as having no repeated characters.
+- [Sliding Window](../../Patterns/SlidingWindow.md) for the longest or shortest substring that satisfies a condition, such as having no repeated characters.
 - [Hashing](../../Patterns/Hashing.md) for anagrams, character frequencies and grouping words that share a property.
 - **Dynamic Programming** for comparing two strings, such as edit distance or the longest common subsequence.
 
@@ -210,7 +210,7 @@ Many string problems are solved by the same patterns as array problems. Their fu
 
 ### Medium
 
-None yet.
+- [001. Longest Substring Without Repeating Characters](Medium/001-longest-substring-without-repeating-characters/README.md): the longest run of distinct characters, using a variable sliding window that jumps its left edge past the earlier copy of a repeated character.
 
 ### Hard
 
