@@ -249,6 +249,7 @@ The [Array](../DSA/01-Array/README.md), [String](../DSA/02-String/README.md) and
 
 - [Two Sum](../DSA/01-Array/Easy/004-two-sum/README.md) (Easy, Array): complement lookup with a map from value to index, looking up before recording so an element never pairs with itself.
 - [Valid Anagram](../DSA/02-String/Easy/001-valid-anagram/README.md) (Easy, String): frequency count of two strings, with an `int[26]` array in place of a map because the keys are only the 26 lowercase letters.
+- [Longest Substring Without Repeating Characters](../DSA/02-String/Medium/001-longest-substring-without-repeating-characters/README.md) (Medium, String): a seen lookup inside a sliding window, storing the last index of each character in an `int[128]` table.
 
 ## Quick revision
 

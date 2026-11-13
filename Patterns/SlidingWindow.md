@@ -217,7 +217,7 @@ The topic guides for [Array](../DSA/01-Array/README.md), [String](../DSA/02-Stri
 
 ## Practice problems
 
-None yet. Problems that use this pattern will be listed here as they are added.
+- [Longest Substring Without Repeating Characters](../DSA/02-String/Medium/001-longest-substring-without-repeating-characters/README.md) (String, Medium): a variable window on a string, where a table of last positions lets the left edge jump past a repeated character.
 
 ## Quick revision
 
