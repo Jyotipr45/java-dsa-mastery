@@ -169,6 +169,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 - [002. Running Sum of 1d Array](Easy/002-running-sum-of-1d-array/README.md): every prefix sum in one pass, by carrying a running total.
 - [003. Find Pivot Index](Easy/003-find-pivot-index/README.md): the leftmost index whose left and right sums are equal, using the total and one running left sum.
 - [004. Two Sum](Easy/004-two-sum/README.md): the two indexes whose values add up to a target, by looking up each value's complement in a hash map.
+- [005. Maximum Average Subarray I](Easy/005-maximum-average-subarray-i/README.md): the largest average of any `k` consecutive elements, using a fixed-size sliding window with a running sum.
 
 ### Medium
 
