@@ -173,7 +173,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 
 ### Medium
 
-None yet.
+- [001. Minimum Size Subarray Sum](Medium/001-minimum-size-subarray-sum/README.md): the shortest subarray with sum at least `target`, using a variable-size sliding window that shrinks from the left, with prefix sums and binary search as the O(n log n) follow-up.
 
 ### Hard
 

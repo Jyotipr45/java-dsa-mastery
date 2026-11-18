@@ -216,6 +216,7 @@ The [Array](../DSA/01-Array/README.md) and [Hashing](../DSA/03-Hashing/README.md
 
 - [Running Sum of 1d Array](../DSA/01-Array/Easy/002-running-sum-of-1d-array/README.md) (Easy): build the prefix sums themselves in place.
 - [Find Pivot Index](../DSA/01-Array/Easy/003-find-pivot-index/README.md) (Easy): compare a running left sum with `total - left - nums[i]`.
+- [Minimum Size Subarray Sum](../DSA/01-Array/Medium/001-minimum-size-subarray-sum/README.md) (Medium): positive values make the prefix sums strictly increasing, so each start can binary search for its shortest end in O(n log n). A sliding window is faster here, but this is the follow-up the problem asks for.
 
 ## Quick revision
 
