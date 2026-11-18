@@ -219,6 +219,7 @@ The topic guides for [Array](../DSA/01-Array/README.md), [String](../DSA/02-Stri
 
 - [Maximum Average Subarray I](../DSA/01-Array/Easy/005-maximum-average-subarray-i/README.md) (Array, Easy): a fixed window of size `k` with a running sum, where comparing sums instead of averages lets the division wait until the end.
 - [Longest Substring Without Repeating Characters](../DSA/02-String/Medium/001-longest-substring-without-repeating-characters/README.md) (String, Medium): a variable window on a string, where a table of last positions lets the left edge jump past a repeated character.
+- [Minimum Size Subarray Sum](../DSA/01-Array/Medium/001-minimum-size-subarray-sum/README.md) (Array, Medium): a variable window with a sum condition, where positive values are what make shrinking from the left correct.
 
 ## Quick revision
 
