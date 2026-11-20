@@ -174,6 +174,7 @@ Many array problems are solved by one of these patterns. Their full guides are l
 ### Medium
 
 - [001. Minimum Size Subarray Sum](Medium/001-minimum-size-subarray-sum/README.md): the shortest subarray with sum at least `target`, using a variable-size sliding window that shrinks from the left, with prefix sums and binary search as the O(n log n) follow-up.
+- [002. Subarray Sum Equals K](Medium/002-subarray-sum-equals-k/README.md): count the subarrays with sum exactly `k` when values can be negative, using prefix sums and a map of how often each earlier prefix sum appeared.
 
 ### Hard
 
