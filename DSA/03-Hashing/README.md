@@ -175,7 +175,7 @@ Hashing is both a data structure and a pattern. The pattern guides are listed in
 
 ### Medium
 
-None yet.
+- [Subarray Sum Equals K](../01-Array/Medium/002-subarray-sum-equals-k/README.md) (Array, Medium 002): count subarrays with sum `k` by keeping a `HashMap` from each prefix sum to how many times it has appeared.
 
 ### Hard
 

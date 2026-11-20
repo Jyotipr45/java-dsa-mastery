@@ -208,7 +208,7 @@ Runs on Java 8, 11, 17, 21 and 25.
 
 - **Return the subarray itself.** Store `left` and `right` whenever `shortest` improves. The cost stays O(n) time and O(1) space.
 - **The values can be negative** ([LeetCode 862](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/), Hard). The window no longer works, and binary search fails too because `prefix` is no longer increasing. A common approach keeps a monotonic deque of start indexes with increasing prefix sums.
-- **The sum must equal `target` exactly, and you count the subarrays** ([LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/)). Use prefix sums with a hash map of earlier prefix sums, as in the [Prefix Sum](../../../../Patterns/PrefixSum.md) guide. This works with negative values.
+- **The sum must equal `target` exactly, and you count the subarrays** ([LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/), solved in [Subarray Sum Equals K](../002-subarray-sum-equals-k/README.md)). Use prefix sums with a hash map of earlier prefix sums, as in the [Prefix Sum](../../../../Patterns/PrefixSum.md) guide. This works with negative values.
 - **The longest subarray with sum at most `target`,** with positive values. The same window works, but the roles swap: record the length after shrinking until the sum is at most `target`.
 - **Count the subarrays with product less than `k`** ([LeetCode 713](https://leetcode.com/problems/subarray-product-less-than-k/)). Positive values make the product monotonic, so a shrinking window works again.
 
