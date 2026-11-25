@@ -199,7 +199,7 @@ Runs on Java 8, 11, 17, 21 and 25.
 - **The input array is sorted** ([LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)). Use two pointers from both ends. It takes O(n) time and O(1) extra space, and the indexes are already the original ones.
 - **Return every pair, not just one.** Keep a map from value to the list of indexes where it appeared, and for each element add one pair for every stored index of its complement. The output itself can be O(n²) pairs, for example when every element is 0 and the target is 0.
 - **Count the pairs instead of listing them.** Store a count for each value instead of an index, and add the count of the complement at every step. This is O(n) time even when the number of pairs is O(n²).
-- **Three values that add up to a target** ([LeetCode 15](https://leetcode.com/problems/3sum/)). Fix one element and solve Two Sum on the rest. With sorting and two pointers this is O(n²) time, and sorting also makes it easy to skip duplicate triplets.
+- **Three values that add up to a target** ([LeetCode 15](https://leetcode.com/problems/3sum/), see [3Sum](../../Medium/004-3sum/README.md)). Fix one element and solve Two Sum on the rest. With sorting and two pointers this is O(n²) time, and sorting also makes it easy to skip duplicate triplets.
 - **Which earlier index is returned when a value repeats?** The solution overwrites the stored index when a value appears again, so it returns the latest earlier occurrence. To return the earliest one instead, use `putIfAbsent`. With exactly one valid answer, both give the same result.
 
 ## 15. Revision Summary
