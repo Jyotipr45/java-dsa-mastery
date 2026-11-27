@@ -9,7 +9,7 @@ Follow the [learning roadmap](../ROADMAP.md) for a suggested order, or jump to a
 | 01 | [Array](01-Array/README.md) | Stage 1: Foundations | Guide written, 9 problems |
 | 02 | [String](02-String/README.md) | Stage 1: Foundations | Guide written, 3 problems |
 | 03 | [Hashing](03-Hashing/README.md) | Stage 1: Foundations | Guide written, 3 linked problems |
-| 04 | [Linked List](04-LinkedList/README.md) | Stage 3: Linear structures | Planned |
+| 04 | [Linked List](04-LinkedList/README.md) | Stage 3: Linear structures | Guide written |
 | 05 | [Stack](05-Stack/README.md) | Stage 3: Linear structures | Planned |
 | 06 | [Queue](06-Queue/README.md) | Stage 3: Linear structures | Planned |
 | 07 | [Binary Search](07-BinarySearch/README.md) | Stage 3: Linear structures | Planned |
